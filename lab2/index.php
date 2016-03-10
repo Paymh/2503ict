@@ -1,3 +1,5 @@
+<?php $post=array( 'date'=> '27 Jan 2014', 'message' => 'Random Post haha!', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'); ?>
+
 <!DOCTYPE html>
 <html>
 
@@ -14,6 +16,7 @@
 
 <body>
     <div class="container-fluid">
+        <?php echo "Random Number: " . rand(1,10) ?>
         <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -43,18 +46,26 @@
                 <p class="card-text">Is it too late to say sorry?</p>
                 <p class="card-text"><small class="text-muted">17th September 2015 - 9:31am</small></p>
             </div>
-             <div class="card card-block">
+            <div class="card card-block">
                 <h4 class="card-title"><img src="http://static.sify.com/cms/image/mhysvMeiiahsi.jpg" width="125px" height="125px"></h4>
                 <p class="card-text">Leave my boi alone.</p>
                 <p class="card-text"><small class="text-muted">17th September 2015 - 9:32am</small></p>
             </div>
+            <?php for ($x=0 ; $x <=rand(1,10); $x++) { ?>
+            <div class="card card-block">
+                <h4 class="card-title"><img src="<?= $post['image'] ?>" width="125px" height="125px"></h4>
+                <p class="card-text"><?= $post['message'] . " " . $x?></p>
+                <p class="card-text"><small class="text-muted"><?= $post['date']?></small></p>
+            </div>
+            <?php } ?>
             <div class="card card-block">
                 <h4 class="card-title"><input type="text" class="form-control" id="msg"></h4>
-                <p class="card-text"><button class="btn btn-info">Post</button></p>
+                <p class="card-text">
+                    <button class="btn btn-info">Post</button>
+                </p>
             </div>
         </div>
         <div class="col-sm-5">
-            
         </div>
     </div>
 </body>
