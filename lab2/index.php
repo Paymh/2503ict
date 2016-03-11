@@ -1,4 +1,16 @@
-<?php $post=array( 'date'=> '27 Jan 2014', 'message' => 'Random Post haha!', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'); ?>
+<?php $post=array(
+    array('date'=> '27 Jan 2014', 'message' => 'Random Post 1', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'),
+    array('date'=> '27 Jan 2014', 'message' => 'Random Post 2', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'),
+    array('date'=> '27 Jan 2014', 'message' => 'Random Post 3', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'),
+    array('date'=> '27 Jan 2014', 'message' => 'Random Post 4', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'),
+    array('date'=> '27 Jan 2014', 'message' => 'Random Post 5', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'),
+    array('date'=> '27 Jan 2014', 'message' => 'Random Post 6', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'),
+    array('date'=> '27 Jan 2014', 'message' => 'Random Post 7', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'),
+    array('date'=> '27 Jan 2014', 'message' => 'Random Post 8', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'),
+    array('date'=> '27 Jan 2014', 'message' => 'Random Post 9', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'),
+    array('date'=> '27 Jan 2014', 'message' => 'Random Post 10', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'));
+$randNum = rand(1,10);
+?>
 
 <!DOCTYPE html>
 <html>
@@ -16,7 +28,7 @@
 
 <body>
     <div class="container-fluid">
-        <?php echo "Random Number: " . rand(1,10) ?>
+        <?php echo "Random Number: " . $randNum ?>
         <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -30,7 +42,7 @@
             </div>
         </nav>
         <div class="col-sm-3">
-            <img src="http://static.sify.com/cms/image/mhysvMeiiahsi.jpg" width="200px" height="200px">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD6wQP_cYi4uPgbvuHlXboMeUUj2ULovNZRTjBpdYzpAXiPeDD" width="200px" height="200px">
             <h4>Abdul Noll</h4>
             <br>
             <br>
@@ -47,15 +59,15 @@
                 <p class="card-text"><small class="text-muted">17th September 2015 - 9:31am</small></p>
             </div>
             <div class="card card-block">
-                <h4 class="card-title"><img src="http://static.sify.com/cms/image/mhysvMeiiahsi.jpg" width="125px" height="125px"></h4>
+                <h4 class="card-title"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD6wQP_cYi4uPgbvuHlXboMeUUj2ULovNZRTjBpdYzpAXiPeDD" width="125px" height="125px"></h4>
                 <p class="card-text">Leave my boi alone.</p>
                 <p class="card-text"><small class="text-muted">17th September 2015 - 9:32am</small></p>
             </div>
-            <?php for ($x=0 ; $x <=rand(1,10); $x++) { ?>
+            <?php for ($x=0 ; $x <$randNum; $x++) { ?>
             <div class="card card-block">
-                <h4 class="card-title"><img src="<?= $post['image'] ?>" width="125px" height="125px"></h4>
-                <p class="card-text"><?= $post['message'] . " " . $x?></p>
-                <p class="card-text"><small class="text-muted"><?= $post['date']?></small></p>
+                <h4 class="card-title"><img src="<?= $post[$x]['image'] ?>" width="125px" height="125px"></h4>
+                <p class="card-text"><?= $post[$x]['message']?></p>
+                <p class="card-text"><small class="text-muted"><?= $post[$x]['date']?></small></p>
             </div>
             <?php } ?>
             <div class="card card-block">
