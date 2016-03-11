@@ -19,18 +19,18 @@
    Fred
   </li>
  </ul>
-<table style="width:100%">
+ <table style="width:100%">
   <tr>
-    <td>Jill</td>
-    <td>Smith</td> 
-    <td>50</td>
+   <td>Jill</td>
+   <td>Smith</td>
+   <td>50</td>
   </tr>
   <tr>
-    <td>Eve</td>
-    <td>Jackson</td> 
-    <td>94</td>
+   <td>Eve</td>
+   <td>Jackson</td>
+   <td>94</td>
   </tr>
-</table>
+ </table>
  <img src="http://i.imgur.com/CxU6n.gif"></img>
  <address>
     You can contact author at <a href="http://www.somedomain.com/contact">www.somedomain.com</a>.<br>
@@ -42,6 +42,7 @@
     Mountain View, CA 94043-0801<br>
     USA
   </address>
+ <a href="page2.php">Page 2</a>
 </body>
 
 </html>
