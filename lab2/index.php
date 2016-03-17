@@ -26,10 +26,10 @@ $randNum = rand(1,10); ?>
 </head>
 
 <body>
-    <nav class="navbar navbar-default">
+<nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span> 
@@ -38,7 +38,7 @@ $randNum = rand(1,10); ?>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="/lab2/photos">Photos</a></li>
+       <li><a href="/lab2/photos">Photos</a></li>
         <li><a href="/lab2/friends">Friends</a></li>
         <li><a href="/lab2/login">Login</a></li>
       </ul>
