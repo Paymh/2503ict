@@ -1,16 +1,16 @@
-<?php $post=array(
-    array('date'=> '27 Jan 2014', 'message' => 'Random Post 1', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'),
+<?php $post=
+array( 
+    array( 'date'=> '27 Jan 2014', 'message' => 'Random Post 1', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'), 
     array('date'=> '27 Jan 2014', 'message' => 'Random Post 2', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'),
-    array('date'=> '27 Jan 2014', 'message' => 'Random Post 3', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'),
-    array('date'=> '27 Jan 2014', 'message' => 'Random Post 4', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'),
-    array('date'=> '27 Jan 2014', 'message' => 'Random Post 5', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'),
-    array('date'=> '27 Jan 2014', 'message' => 'Random Post 6', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'),
-    array('date'=> '27 Jan 2014', 'message' => 'Random Post 7', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'),
-    array('date'=> '27 Jan 2014', 'message' => 'Random Post 8', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'),
-    array('date'=> '27 Jan 2014', 'message' => 'Random Post 9', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'),
-    array('date'=> '27 Jan 2014', 'message' => 'Random Post 10', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'));
-$randNum = rand(1,10);
-?>
+array('date'=> '27 Jan 2014', 'message' => 'Random Post 3', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'),
+array('date'=> '27 Jan 2014', 'message' => 'Random Post 4', 'image' =>'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'), 
+array('date'=> '27 Jan 2014', 'message' => 'Random Post 5', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'),
+array('date'=> '27 Jan 2014', 'message' => 'Random Post 6', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'), 
+array('date'=> '27 Jan 2014', 'message' => 'Random Post 7', 'image' =>'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'), 
+array('date'=> '27 Jan 2014', 'message' => 'Random Post 8', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'),
+array('date'=> '27 Jan 2014', 'message' => 'Random Post 9', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'),
+array('date'=> '27 Jan 2014', 'message' => 'Random Post 10', 'image'=> 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg')); 
+$randNum = rand(1,10); ?>
 
 <!DOCTYPE html>
 <html>
@@ -27,20 +27,26 @@ $randNum = rand(1,10);
 </head>
 
 <body>
+    <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">Social Network</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/lab2/photos">Photos</a></li>
+                        <li><a href="/lab2/friends">Friends</a></li>
+                        <li><a href="/lab2/login">Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
     <div class="container-fluid">
-        <?php echo "Random Number: " . $randNum ?>
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="/lab2/">Social Network</a>
-                </div>
-                <ul class="nav navbar-nav">
-                    <li><a href="/lab2/photos">Photos</a></li>
-                    <li><a href="/lab2/friends">Friends</a></li>
-                    <li><a href="/lab2/login">Login</a></li>
-                </ul>
-            </div>
-        </nav>
         <div class="col-sm-3">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD6wQP_cYi4uPgbvuHlXboMeUUj2ULovNZRTjBpdYzpAXiPeDD" width="200px" height="200px">
             <h4>Abdul Noll</h4>
@@ -66,7 +72,9 @@ $randNum = rand(1,10);
             <?php for ($x=0 ; $x <$randNum; $x++) { ?>
             <div class="card card-block">
                 <h4 class="card-title"><img src="<?= $post[$x]['image'] ?>" width="125px" height="125px"></h4>
-                <p class="card-text"><?= $post[$x]['message']?></p>
+                <p class="card-text">
+                    <?=$post[$x][ 'message']?>
+                </p>
                 <p class="card-text"><small class="text-muted"><?= $post[$x]['date']?></small></p>
             </div>
             <?php } ?>
