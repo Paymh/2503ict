@@ -48,9 +48,18 @@ $randNum = rand(1,10); ?>
     <div class="container-fluid">
         <div class="col-sm-3">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD6wQP_cYi4uPgbvuHlXboMeUUj2ULovNZRTjBpdYzpAXiPeDD" width="200px" height="200px">
-            <h4>Abdul Noll</h4>
             <br>
             <br>
+             <div class="card card-block">
+                <h4 class="card-title">
+                    Name:<input type="text" class="form-control" id="msg">
+                    <br>
+                    Message:<input type="text" class="form-control" id="name">
+                </h4>
+                <p class="card-text">
+                    <button class="btn btn-info">Post</button>
+                </p>
+            </div>
         </div>
         <div class="col-sm-4 text-center">
             <div class="card card-block">
@@ -77,12 +86,6 @@ $randNum = rand(1,10); ?>
                 <p class="card-text"><small class="text-muted"><?= $post[$x]['date']?></small></p>
             </div>
             <?php } ?>
-            <div class="card card-block">
-                <h4 class="card-title"><input type="text" class="form-control" id="msg"></h4>
-                <p class="card-text">
-                    <button class="btn btn-info">Post</button>
-                </p>
-            </div>
         </div>
         <div class="col-sm-5">
         </div>
