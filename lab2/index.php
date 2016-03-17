@@ -16,7 +16,6 @@ $randNum = rand(1,10); ?>
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -40,8 +39,8 @@ $randNum = rand(1,10); ?>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="/lab2/photos">Photos</a></li>
-                        <li><a href="/lab2/friends">Friends</a></li>
-                        <li><a href="/lab2/login">Login</a></li>
+        <li><a href="/lab2/friends">Friends</a></li>
+        <li><a href="/lab2/login">Login</a></li>
       </ul>
     </div>
   </div>
