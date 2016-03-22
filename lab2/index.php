@@ -1,16 +1,16 @@
 <?php $post=
-array( 
-    array( 'date'=> '27 Jan 2014', 'message' => 'Random Post 1', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'), 
-    array('date'=> '27 Jan 2014', 'message' => 'Random Post 2', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'),
-array('date'=> '27 Jan 2014', 'message' => 'Random Post 3', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'),
-array('date'=> '27 Jan 2014', 'message' => 'Random Post 4', 'image' =>'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'), 
-array('date'=> '27 Jan 2014', 'message' => 'Random Post 5', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'),
-array('date'=> '27 Jan 2014', 'message' => 'Random Post 6', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'), 
-array('date'=> '27 Jan 2014', 'message' => 'Random Post 7', 'image' =>'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'), 
-array('date'=> '27 Jan 2014', 'message' => 'Random Post 8', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'),
-array('date'=> '27 Jan 2014', 'message' => 'Random Post 9', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'),
-array('date'=> '27 Jan 2014', 'message' => 'Random Post 10', 'image'=> 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg')); 
-$randNum = rand(1,10); ?>
+    array( 
+          array( 'date'=> '27 Jan 2014', 'message' => 'Random Post 1', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'), 
+          array('date'=> '27 Jan 2014', 'message' => 'Random Post 2', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'),
+          array('date'=> '27 Jan 2014', 'message' => 'Random Post 3', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'),
+          array('date'=> '27 Jan 2014', 'message' => 'Random Post 4', 'image' =>'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'), 
+          array('date'=> '27 Jan 2014', 'message' => 'Random Post 5', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'),
+          array('date'=> '27 Jan 2014', 'message' => 'Random Post 6', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'), 
+          array('date'=> '27 Jan 2014', 'message' => 'Random Post 7', 'image' =>'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'), 
+          array('date'=> '27 Jan 2014', 'message' => 'Random Post 8', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'),
+          array('date'=> '27 Jan 2014', 'message' => 'Random Post 9', 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg'),
+          array('date'=> '27 Jan 2014', 'message' => 'Random Post 10', 'image'=> 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwujqtvj_ZFj6saCl2EyobcSOxwQH0Uf4WXnNOis0PsC3gCjmbg')); 
+    $randNum = rand(1,10); ?>
 
 <!DOCTYPE html>
 <html>
