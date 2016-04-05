@@ -41,8 +41,8 @@
 <br>
 <h2>Abdul Noll</h2>
 @show
-  @section('content')
+@section('content')
   
-  @show
+@show
 </body>
 </html>

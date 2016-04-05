@@ -27,7 +27,7 @@ Route::get('search', function()
   $param = Input::get('param');
   $results = search($param);
 
-	return View::make('pms.results')->withPms($results);
+	return View::make('pms.results')->withPms($results)->with('paramater',$param);
 });
 
 function search($param) {

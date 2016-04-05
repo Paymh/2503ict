@@ -7,7 +7,7 @@ Associative array search results page
 @section('content')
 
 <h2>Library Users</h2>
-<h3>Results for '{{{ $_GET['param'] }}}'</h3>
+<h3>Results for '{{{$paramater}}}'</h3>
 
 @if (count($pms) == 0)
 
