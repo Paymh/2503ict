@@ -37,7 +37,10 @@ function search($param) {
   if (!empty($param)) {
     $results = array();
     foreach ($pms as $pm) {
-      if (stripos($pm['name'], $param) !== FALSE || stripos($pm['address'], $param) !== FALSE || stripos($pm['phone'], $param) !== FALSE || stripos($pm['email'], $param) !== FALSE) {
+      if (stripos($pm['name'], $param) !== FALSE ||
+      stripos($pm['address'], $param) !== FALSE || 
+      stripos($pm['phone'], $param) !== FALSE || 
+      stripos($pm['email'], $param) !== FALSE) {
         $results[] = $pm;
       }
     }
@@ -46,5 +49,5 @@ function search($param) {
   else {
     return [];
   }
-  return $pms;
+  return $pms;  
 }

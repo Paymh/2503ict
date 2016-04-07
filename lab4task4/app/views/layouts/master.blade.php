@@ -27,9 +27,9 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-         <li><a href="/lab4task4/public/">Posts</a></li>
-          <li><a href="/lab4task4/public/friends">Friends</a></li>
-          <li><a href="/lab4task4/public/login">Login</a></li>
+         <li><a href="./">Posts</a></li>
+          <li><a href="./friends">Friends</a></li>
+          <li><a href="./login">Login</a></li>
         </ul>
       </div>
     </div>
