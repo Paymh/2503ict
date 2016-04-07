@@ -43,5 +43,8 @@ function search($param) {
     }
     $pms = $results;
   }
+  else {
+    return [];
+  }
   return $pms;
 }
