@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-Your profile
+Keepo - Home
 @stop
  
  @section('content')
